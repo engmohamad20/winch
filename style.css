@@ -1,0 +1,455 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+:root {
+--fristcolor: rgb(252, 174, 4);
+  --secondcolor: #34332b;
+}
+
+nav {
+  background-color:var(--fristcolor);
+  color: white;
+  padding: 20px;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+}
+
+nav .menu li a {
+  color: var(--secondcolor);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+
+
+
+
+.backg{
+
+  width: 100%;
+  height: 100vh;
+  background-image: url(Images/asphlt.jpg);
+  display: flex;
+overflow: hidden;
+position: relative;
+  flex-direction: row;
+
+}
+.text{
+  width: 60%;
+  margin: auto;
+  height: 100vh;
+  text-align: center;
+
+  position: relative;
+  top: -75vh;
+}
+.text h1{
+  font-size: 56px;
+  color: var(--fristcolor);
+
+}
+.text h3{
+  margin: 20px;
+   font-size: 35px;
+   color: var(--fristcolor);
+   margin: 20px;
+   letter-spacing: 1.9px;
+}
+
+.hilpo
+{
+border: px solid hotpink;
+width: 25%;
+height: auto;
+position:sticky;
+left: 200vh;
+top:4px
+}
+
+button{
+  background-color: var(--secondcolor);
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  transition:0.8s;
+  cursor: pointer;
+}
+button a{
+  text-decoration: none;
+  color: var(--fristcolor);
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing:1.3px
+}
+button:hover{
+  transform: scale(1.2);
+}
+.service{
+  display: flex;
+flex-direction: row;}
+.m1{
+  width: 33.3%;
+  height: 200px;
+  overflow: hidden;
+
+
+}
+.m1 h2 {
+  color: var(--secondcolor);
+  font-size: 33px;
+  margin: 10px;
+text-align: left;
+
+}.m1 h3 {
+  color: var(--secondcolor);
+  font-size: 25px;
+  margin: 10px;
+  text-align: left;
+
+}.m1 h4 {
+  color: var(--secondcolor);
+  font-size:20px;
+  margin: 10px;
+  text-align: left;
+
+}
+.m1 img{
+  width: 40%;
+position: relative;
+left: 37vh;
+top:-14vh;
+
+}
+#m1d img{
+  width: 40%;
+position: relative;
+left: 41vh;
+top:-14vh;
+
+}
+#m1s{
+  background-color: #ffaf02;
+}
+#m1d{
+  background-color:#eda103;
+}
+#m1f{
+  background-color: #dd9701;
+}
+
+.bot{
+
+  width: 20%;
+}
+.aboutus{
+  height: 98vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.aboutus .text1{
+  font-size: 30px;
+  color: var(--fristcolor);
+  text-align: left;
+display: flex;
+flex-direction: column;
+}
+
+.aboutus .text1 button{
+margin: auto;
+cursor: pointer;
+}
+.aboutus .text1 h1{
+width: 900px;
+margin: auto;
+margin-top: 50px;
+position: relative;
+left: -80px;
+
+
+}
+.boot{
+  display: flex;
+  flex-direction: row;
+width: 400px;
+  margin: auto;
+
+}
+.aboutus .text1 h3{
+width: 900px;
+margin: auto;
+  font-size: 26px;
+position: relative;
+left: -80px;
+
+
+}
+
+
+.aboutus img{
+margin-left: auto;
+position:relative;
+top: -38.1vh;
+width: 33.3%;
+
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer form input, footer form textarea {
+  margin-bottom: 10px;
+  width: 30%;
+  height: 40px;
+}
+
+.social-media, .site-info, .copy-right {
+  margin-top: 20px;
+}
+.pike
+{
+  width: 500px;
+  height: 560px;
+  background-image: url(Images/pike.png);
+  position: relative;
+margin-top: -500px;
+  left: 600px;
+  background-repeat: no-repeat;
+background-size: 600px 600px;
+  
+}
+
+
+
+@media screen and (max-width: 785px) {
+  .backg{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/asphlt.jpg);
+    display: flex;
+  overflow: hidden;
+    flex-direction: row;
+  
+  }
+  .text{
+    width: 380px;
+    height: 80vh; 
+position: absolute;
+top: 120px;
+left: 1px;
+
+
+  }
+  .text h1{
+    font-size: 30px;
+    color:var(--fristcolor);
+  
+  }
+  .text h3{
+    margin: 18px;
+     font-size: 22px;
+     color: var(--fristcolor);
+     margin: 20px;
+     letter-spacing: 1.9px;
+  }
+
+  .service{
+    display: flex;
+    flex-direction: column;
+
+  }
+.m1{
+  width: 100%;
+
+}
+.m1 img{
+display: none;
+}
+.aboutus{
+
+}
+.aboutus .text1 h1{
+  position:relative;
+  left:-250px;
+text-align: center;
+
+}
+.aboutus .text1 h3{
+  position: relative;
+  font-size: 25px;
+  width: 300px;
+  left: 7px;
+  top: 20px;
+  
+}
+.aboutus img{
+  position: relative;
+  top: -340px;
+display: none;
+}
+.aboutus .boot button{
+  margin-top: 240px;
+
+}
+
+.pike{
+  display: none;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+footer form input, footer form textarea {
+display: inline-flex;
+
+}
+
+.social-media, .site-info, .copy-right {
+  position: relative;
+  top: 200px;
+}
+@media screen and (max-width: 600px) {
+  nav .menu {
+      display: none;
+  }
+
+  nav .menu-toggle {
+      display: block;
+  }
+}
+
+ }
+
+ 
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .backg{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/asphlt.jpg);
+    display: flex;
+  overflow: hidden;
+    flex-direction: row;
+    position: relative;
+  
+  }
+  .text{
+    width: 680px;
+    height: 80vh; 
+position: absolute;
+top: 150px;
+left: 55px;
+
+
+  }
+  .service{
+    display: flex;
+    flex-direction: column;
+
+  }
+.m1{
+  width: 100%;
+  text-align: center;
+display: flex;
+flex-direction: column;
+}
+
+.m1 img{
+  display: none;
+}
+.m1 h2 {
+  text-align: center;
+}
+.m1 h3 {
+  text-align: center;
+}.m1 h4{
+  text-align: center;
+}
+.m1 .bot button {
+position: relative;
+left: 30vh;
+}
+
+.aboutus .text1 h1{
+  position:relative;
+  left:-250px;
+  position: relative;
+  left: 20px;
+text-align: center;
+width:100%;
+
+}
+.aboutus .text1 h3{
+  position: relative;
+  font-size: 35px;
+  width: 700px;
+  left: 7px;
+  top: 20px;
+  
+}
+.aboutus img{
+  position: relative;
+  top: -340px;
+display: none;
+}
+.aboutus .boot button{
+  margin-top: 240px;
+
+}
+
+.pike{
+  display: none;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+footer form input, footer form textarea {
+display: inline-flex;
+
+}
+
+.social-media, .site-info, .copy-right {
+  position: relative;
+  top: 260px;
+}
+}
